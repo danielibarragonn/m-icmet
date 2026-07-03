@@ -1,0 +1,700 @@
+{
+
+  "s1": [
+    [
+      "Cálculo I",
+      "CAL-I",
+      1,
+      6,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Introducción a la Física",
+      "FIS-I",
+      1,
+      6,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Álgebra I",
+      "ALG-I",
+      1,
+      6,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Identidad y Universidad",
+      "IdU",
+      1,
+      1,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Inglés I",
+      "INGL-I",
+      1,
+      4,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Comunicación efectiva I",
+      "COE-I",
+      1,
+      2,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Proyecto Introducción a la ingeniería",
+      "PInt",
+      1,
+      5,
+      "BAS",
+      [],
+      "A"
+    ]
+  ],
+  "s2": [
+    [
+      "Cálculo II",
+      "CAL-II",
+      2,
+      6,
+      "BAS",
+      [
+        "CAL-I"
+      ],
+      "A"
+    ],
+      [
+    "Mecánica",
+    "FIS-II",
+    2,
+    6,
+    "BAS",
+    [
+      "CAL-I",
+      "FIS-I"
+    ],
+    "A"
+  ],     
+    [
+    "Química Grl.",
+    "QUI",
+    2,
+    6,
+    "BAS",
+    [
+      "CAL-I",
+      "FIS-I"
+    ],
+    "A"
+  ],
+    [
+      "Álgebra II",
+      "ALG-II",
+      2,
+      6,
+      "BAS",
+      [
+        "ALG-I"
+      ],
+      "A"
+    ],
+    [
+      "Inglés II",
+      "INGL-II",
+      2,
+      4,
+      "BAS",
+      [
+        "INGL-I"
+      ],
+      "A"
+    ],
+    [
+      "Diálogo fe y cultura",
+      "DFC-I",
+      2,
+      2,
+      "BAS",
+      [
+        "IdU"
+      ],
+      "A"
+    ]
+  ],
+  "s3": [
+    [
+      "Cálculo III",
+      "CAL-III",
+      3,
+      5,
+      "BAS",
+      [
+        "CAL-II"
+      ],
+      "A"
+    ],
+    [
+      "Ecuaciones diferenciales",
+      "ECD",
+      3,
+      5,
+      "BAS",
+      [
+        "ALG-II"
+      ],
+      "A"
+    ],    [
+      "Programación",
+      "PRG",
+      3,
+      5,
+      "BAS",
+      [
+        "ALG-I", "PInt"
+      ],
+      "A"
+    ],
+    [
+      "Materiales y estática",
+      "MAT",
+      3,
+      5,
+      "BAS",
+      [
+        "FIS-II"
+      ],
+      "A"
+    ],
+    [
+      "Diálogo fe y ciencia",
+      "DFC-II",
+      3,
+      2,
+      "BAS",
+      [
+        "DFC-I"
+      ],
+      "A"
+    ],
+    [
+      "Formación general electiva",
+      "FGE",
+      3,
+      2,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Proyecto diseño e innovación",
+      "PDI",
+      3,
+      6,
+      "BAS",
+      [
+        "PInt"
+      ],
+      "A"
+    ]
+  ],
+  "s4": [
+    [
+      "Electromagnetismo",
+      "ELM",
+      4,
+      6,
+      "BAS",
+      [
+        "CAL-III", "FIS-II","ALG-I"
+      ],
+      "A"
+    ],
+    [
+      "Estadística",
+      "EST",
+      4,
+      6,
+      "BAS",
+      [
+        "CAL-II"
+      ],
+      "A"
+    ],
+    [
+      "Termodinámica",
+      "TER",
+      4,
+      5,
+      "BAS",
+      [
+        "QUI", "CAL-II"
+      ],
+      "A"
+    ],
+    [
+      "Geología general y estructural",
+      "GEO-I",
+      4,
+      5,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Ética y moral profesional",
+      "ETP",
+      4,
+      2,
+      "BAS",
+      [
+        "DFC-II"
+      ],
+      "A"
+    ],
+    [
+      "Proyecto Intro a la Min",
+      "PIM",
+      4,
+      6,
+      "BAS",
+      [
+        "PInt"
+      ],
+      "A"
+    ]
+  ],
+  "s5": [
+    [
+      "Ingeniería económica",
+      "INGECO",
+      5,
+      5,
+      "PRO",
+      [
+        "CAL-II"
+      ],
+      "A"
+    ],
+    [
+      "Ing y desarrollo sustentable",
+      "SUST",
+      5,
+      5,
+      "PRO",
+      [],
+      "A"
+    ],
+    [
+      "Carguio y transporte",
+      "CYT",
+      5,
+      5,
+      "PRO",
+      [
+        "PInt"
+      ],
+      "A"
+    ],    
+    [
+      "Geomensura",
+      "GMS",
+      5,
+      5,
+      "PRO",
+      [
+        "ALG-II", "CAL-II"
+      ],
+      "A"
+    ],
+    [
+      "Geología económica minera",
+      "GEO-II",
+      5,
+      5,
+      "PRO",
+      [
+        "GEO-I"
+      ],
+      "A"
+    ],
+    [
+      "Modelamiento Geoestadístico",
+      "GEOEST",
+      5,
+      5,
+      "PRO",
+      [
+        "EST"
+      ],
+      "A"
+    ]
+  ],
+  "s6": [
+    [
+      "Computación Aplicada a la Minería",
+      "CAM",
+      6,
+      5,
+      "PRO",
+      [
+        "GEOEST"
+      ],
+      "A"
+    ],
+    [
+      "Geomecánica I",
+      "GEOM-I",
+      6,
+      5,
+      "PRO",
+      [
+        "GEO-I"
+      ],
+      "A"
+    ],
+    [
+      "Minería a Cielo Abierto",
+      "MCA",
+      6,
+      5,
+      "PRO",
+      [
+        "CYT"
+      ],
+      "A"
+    ],
+    [
+      "Perforación y tronadura",
+      "PYT",
+      6,
+      5,
+      "PRO",
+      [
+        "GMS"
+      ],
+      "A"
+    ],
+    [
+      "Electivo Profesional Minor 1",
+      "EPM-I",
+      6,
+      5,
+      "PRO",
+      [],
+      "A"
+    ],    
+    [
+  "Pr. Ev. Yacimientos",
+  "PEY",
+  6,
+  5,
+  "PRO",
+  [
+    "GEOEST",
+    "GEO-II"
+  ],
+  "A"
+  ],
+  [
+      "Práctica Profesional",
+      "PRACT",
+      6,
+      0,
+      "LAB",
+      [
+        "CAL-I",
+        "FIS-I",
+        "ALG-I",
+        "IdU",
+        "INGL-I",
+        "COE-I",
+        "PInt",
+        "CAL-II",
+        "FIS-II",
+        "QUI",
+        "ALG-II",
+        "INGL-II",
+        "DFC-I",
+        "CAL-III",
+        "ECD",
+        "PRG",
+        "MAT",
+        "DFC-II",
+        "FGE",
+        "PDI",
+        "ELM",
+        "EST",
+        "TER",
+        "GEO-I",
+        "ETP",
+        "PIM",
+        "INGECO",
+        "SUST",
+        "CYT",
+        "GMS",
+        "GEO-II",
+        "GEOEST",
+        "CAM",
+        "GEOM-I",
+        "MCA",
+        "PYT",
+        "EPM-I",
+        "PEY"
+      ],
+      "A"
+    ]
+  ],
+  "s7": [
+    [
+      "Planificación minera",
+      "PLM",
+      7,
+      5,
+      "PRO",
+      [
+        "CYT"
+      ],
+      "A"
+    ],
+    [
+      "Geomecánica II",
+      "GEOM-II",
+      7,
+      5,
+      "PRO",
+      [
+        "GEOM-I"
+      ],
+      "A"
+    ],
+    [
+  "Minería Subterránea",
+  "MS",
+  7,
+  5,
+  "PRO",
+  [
+    "GEOM-I",
+    "PYT",
+    "PEY"
+  ],
+  "A"
+],
+    [
+      "Procesos metalúrgicos",
+      "PMET",
+      7,
+      5,
+      "PRO",
+      [
+        "GEO-II"
+      ],
+      "A"
+    ],
+    [
+      "Proyecto Op Unitarias",
+      "PROUN",
+      7,
+      5,
+      "PRO",
+      [
+        "CYT"
+      ],
+      "A"
+    ],
+    [
+      "Electivo Profesional Minor 2",
+      "EPM-II",
+      7,
+      5,
+      "PRO",
+      [
+        "EPM-I"
+      ],
+      "A"
+    ]
+  ],
+  "s8": [
+    [
+      "Gest de Op y Pr Min",
+      "GOPM",
+      8,
+      5,
+      "BAS",
+      [
+        "MS"
+      ],
+      "A"
+    ],
+    [
+      "Legislación y seguridad minera",
+      "LSM",
+      8,
+      5,
+      "BAS",
+      [],
+      "A"
+    ],
+    [
+      "Ventilación de Minas",
+      "VM",
+      8,
+      5,
+      "PRO",
+      [
+        "MS"
+      ],
+      "A"
+    ],
+    [
+      "Emprendimiento",
+      "EMP",
+      8,
+      3,
+      "PRO",
+      [],
+      "A"
+    ],
+    [
+      "Comunicación efectiva II",
+      "COE-II",
+      8,
+      2,
+      "PRO",
+      [
+        "COE-I"
+      ],
+      "A"
+    ],
+    [
+      "Electivo Profesional Minor 3",
+      "EPM-III",
+      8,
+      5,
+      "PRO",
+      [
+        "EPM-II"
+      ],
+      "A"
+    ],
+    [
+      "Proyecto Minero",
+      "PM",
+      8,
+      5,
+      "PRO",
+      [
+        "GEOM-I", "CYT"
+      ],
+      "A"
+    ]
+  ],
+  "s9": [
+    [
+      "Electivo profesional I",
+      "EP-I",
+      9,
+      5,
+      "PRO",
+      [],
+      "A"
+    ],
+    [
+      "Electivo profesional II",
+      "EP-II",
+      9,
+      5,
+      "PRO",
+      [],
+      "A"
+    ],
+    [
+      "Electivo profesional III",
+      "EP-III",
+      9,
+      5,
+      "PRO",
+      [],
+      "A"
+    ],
+    [
+      "Electivo profesional IV",
+      "EP-IV",
+      9,
+      5,
+      "PRO",
+      [],
+      "A"
+    ],
+    [
+      "Electivo profesional V",
+      "EP-V",
+      9,
+      5,
+      "PRO",
+      [],
+      "A"
+    ],
+    [
+      "Electivo profesional VI",
+      "EP-VI",
+      9,
+      5,
+      "PRO",
+      [],
+      "A"
+    ]
+  ],
+  "s10": [
+  [
+    "CAPSTONE PROJECT",
+    "CAPS",
+    10,
+    30,
+    "PRO",
+    [
+      "PRACT",
+      "CAM",
+      "GEOM-I",
+      "MCA",
+      "PYT",
+      "EPM-I",
+      "PEY",
+      "PLM",
+      "GEOM-II",
+      "MS",
+      "PMET",
+      "PROUN",
+      "EPM-II",
+      "GOPM",
+      "LSM",
+      "VM",
+      "EMP",
+      "COE-II",
+      "EPM-III",
+      "PM",
+      "EP-I",
+      "EP-II",
+      "EP-III",
+      "EP-IV",
+      "EP-V",
+      "EP-VI"
+    ],
+    "A"
+  ]
+]
+}
