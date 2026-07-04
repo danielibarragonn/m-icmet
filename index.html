@@ -384,7 +384,7 @@ function basicCycleComplete(data){
 }
 
 function isProfessional(row){
-  return row[4] === "PRO";
+  return semesterOf(row) >= 5;
 }
 
 function isProjected(row, data){
